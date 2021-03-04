@@ -1,0 +1,20 @@
+{
+  "name": "speech-to-text-ibm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-EsTOv": "node dist/app.js"
+  },
+  "author": "Jack y Manuel",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/speech": "^3.5.4",
+    "@google-cloud/storage": "^4.2.0",
+    "docx": "^5.5.0",
+    "ibm-watson": "^5.2.1",
+    "nodemon": "^2.0.2",
+    "require": "^2.4.20",
+    "typescript": "^3.7.4"
+  }
+}

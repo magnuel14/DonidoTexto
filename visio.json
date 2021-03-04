@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tetsaudio",
+  "private_key_id": "d306824b896fc0f5101ddab340a92247391a489c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCs0vJXJsx62uJI\nZqYOajIb6UwrtoQ2D6uoKnpEpuVlJutqh+yB3GWeOAyL8tR7g/DkJgLpfEU/s6ru\nrFtQPdqmi8b0R5LVnqmaEr0lw8JgV0hq98f1D5zuRqPKESD1q229SC6nPJZOqESz\nHH+6EAOUeCx8gosuCA5srYlUcOoE3uC604fsRJsNerUE9TEWKhLj5Zf8sV2X0Jg/\nS+sFSeNUC2ryg+E+cEy3i31SwBrIbIAP5p9NRSvYH05kRJcOO/2oYCWtgq7HxiQe\n5eoFb1qDvRh5OTpzci1OAI3C0FQTP/1bKuV3jDiGCrqiPHUg9otEJhdTBKmVLTli\n3XGxm6TPAgMBAAECggEAUYfkzuudXLoFNX3DihpcUGGTzy14Gt7yrs93RgrsPneJ\naQT9tNfKUsWDWcRxrGF209MA3bCEJMS4d4d1PponnBll/xkC8uc6gNalR/sdqICU\nx+3j9b7rXFeT7oB9KZi5mSnD5J6HFE16t3rS4O6sGa9F4WleipU/ZNLLbjwkkq3h\nUEeDmhz2ra5fmVxiTrZ6422NhzmME0cNYBmSk6PU5jLfxivBa1GnNt1UIHhkl1SG\noG4pyjGWMrg9brcKQXDnXXhJpjDxAAj5o91Ur7VFyYD8tn3pn1mInmXw0cXxPTxX\n8Fni1OW83o8HHYfSyicqGFlHtcpKq0lHpM5N5nPn6QKBgQDmiJYhBEe0dIiUJl9r\nmIYbOuaYNboJ+2spactKOCGcag2/NZVU3nd6+P8kurHpZyVHeWSp2gj3Fbz1umfG\n5/jHI38E7ps7f0HHOwRkiABGZlNB9m7FzugM0pk3Tgi4MqddPJUFsC0abLptW/Za\nudxxCDP3UwUDrx9+Qkx9AgVDtwKBgQC/6lp7kGJGmIGsjYXjidjdL26qOITPcgag\n8JQtDVdeqC67DTtkHL7GiX0uXwrq5/2GPTNCPbBUzP7hYGsU/phs0i1Q9w4K02uJ\npCuCAxM3DOzsK/xBXsQYm7U+TjRnuUCrLQoxBENJM995y8657WbEECQWLeDu78/p\njZL9sleXqQKBgEetpkhDxWvFZAX0XGze8quax8IByoN6CdrJiyzbgQ/aJcYTCghm\nV24D54jrB5BTwtKTWwo4wdrZhnQ87jF5RO/eCItnCRsZuUESB46efr9k53Q2BEE6\n0QnTnVIF0E49aa5ivM8U9SEnN1vzYQjai0EV1NqMlJ2NoNQoFxIzQ6HHAoGBALRe\nc2/SQSsMRkOANyek9Jbc72s390poZmZ39StqcITcGB9gzkLG6V369hXQ6ZfhNVsm\nxbgp9kGc8KetULbImUUdO83ug9oU3ercyq9EaJjCoyFMLabag/6EyRCnu4UIjQjU\nKdHrqblw8UWtELuZrY3zhZb6w36NEKD2mAGrzbsRAoGAFkGp6QEUv78BjjbkdK6H\nW6dgY7qsMMWq3PomcjHWiH+m6pdRRyDeiKP3h00EKaAv3ksPzlO9t6GhZgwvYGoE\nfI82kb6vAivyUKA4loz6imJAbRMo8paM/Aoc4p2fjBfhoSTpTwHzpymJFqpGEq57\nFV+rqeu+C6envPxmG4O2scg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "testaudio@tetsaudio.iam.gserviceaccount.com",
+  "client_id": "110563902961091871686",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/testaudio%40tetsaudio.iam.gserviceaccount.com"
+}
