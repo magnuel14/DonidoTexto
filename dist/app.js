@@ -11,26 +11,34 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     step((generator = generator.apply(thisArg, _arguments || [])).next());
   });
 };
-/** */
+/**
+La funcion syncRecognize, es la funcion que se usa para realizar la petición
+que realizara el analisis
+*/
 function syncRecognize() {
   return __awaiter(this, void 0, void 0, function* () {
-    // [START speech_transcribe_sync]
-    // Imports the Google Cloud client library
+    // Se importa las librerias que se usan en esta función
     const speech = require('@google-cloud/speech').v1p1beta1;
     const docx = require("docx");
     const fs = require('fs');
-    // Creates a client
+    // Se crea el cliente con la credenciales generada en formato json
     const client = new speech.SpeechClient({
       keyFilename: 'visio.json'
     });
     /**
-     * TODO(developer): Uncomment the following lines before running the sample.
+     * Constantes que se usan para realizarla peitción
      */
+    // filename se usa cuando el audio a nalizar es un archivo local
     //const filename = './assets/1614735767236output.mp3';
+    //encoding; sirve para identificar el estandar de codificación de audio 
     const encoding = 'MPEG';
+    // Especifica la tasa de muestreo (en hercios) del audio suministrado
     const sampleRateHertz = 48000;
+    //Contiene el idioma + la región/configuración regional que
+    //se usará para el reconocimiento de voz del audio suministrado.
     const languageCode = 'es-ES';
     const WordConfidence = false;
+    // Para auio largos se usa link en formato gs con umetodo asincrono 
     //audio de 43 min
     const gcsUri = 'gs://my-almacenamiento/1614735767236output.mp3';
     //audio de 16 min
@@ -58,6 +66,8 @@ function syncRecognize() {
       config: config,
       audio: audio,
     };
+    // El archivo word se guarda con el nombre en el siguiente formato
+    // fechaActual+-analisis+.docx
     const date = new Date();
     const nombre = '-analisis'
     const exte = '.docx';
